@@ -16,6 +16,6 @@ class Menu extends Model
     ];
 
     public function menu() {
-        return $this->belongsTo(Buku::class);
+        return $this->belongsTo(Menu::class);
     }
 }
