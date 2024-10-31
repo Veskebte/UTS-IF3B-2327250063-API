@@ -7,5 +7,5 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // })->middleware('auth:sanctum');
 
-Route::get('/menu', [BukuController::class, 'index']);
-Route::post('/menu', [BukuController::class, 'store']);
+Route::get('/menus', [BukuController::class, 'index']);
+Route::post('/menus', [BukuController::class, 'store']);
