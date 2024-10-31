@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\BukuController;
+use App\Http\Controllers\MenuController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -8,5 +8,5 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // })->middleware('auth:sanctum');
 
-Route::get('/menus', [BukuController::class, 'index']);
-Route::post('/menus', [BukuController::class, 'store']);
+Route::get('/menus', [MenuController::class, 'index']);
+Route::post('/menus', [MenuController::class, 'store']);
